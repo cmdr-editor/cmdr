@@ -1,9 +1,6 @@
 # cmdr
 
-
-[<img src="docs/pics/icon/download.png?raw=true" width="400">](https://github.com/pestrela/cmdr/releases/latest/download/cmdr_tsi_editor_latest.zip)
-
-
+[<img src="docs/pics/icon/download.png?raw=true" width="400">](https://github.com/cmdr-editor/cmdr/releases/latest/download/cmdr_tsi_editor_latest.zip)
 
 ## Description
 
@@ -21,7 +18,7 @@ The latest download is ALWAYS available in this link:
 
 There is no installer yet. After download just unzip the file and start cmdr.exe.
 
-## Anti virus issues
+## AntiVirus issues
 
 If the EXE file disapears, this is because your anti-virus quarantined the file. CMDR doesn't have a digital signature yet.\
 In this case make an exception for CMDR.exe; CMDR has a perfect VirusTotal check: [0 out of 72](https://www.virustotal.com/gui/file/ab1db0d627782cfd55867addbac61d55be9debed9c3483ee527733eecf7b6610/detection)
@@ -41,7 +38,7 @@ Please see [the docs folder](docs) to learn how to use CMDR:
 * [FAQ](docs/faq.md)
 * [macOS usage](docs/running_on_macos.md).
 
-If you are familiar with CMDR, check [this folder](docs/development) as well
+If you are already familiar with CMDR, check [this folder](docs/development) as well
 * [2020 improvements](#2020-improvements)
 * [Full Change Log](docs/development/Change_Log.md)
 * [Development Info](docs/development/Development_Info.md)
@@ -55,7 +52,7 @@ Be sure to see the [2020 updates as well](#2020-improvements)
 ## Disclaimer
 
 This software is under active development, comes with ABSOLUTELY NO WARRANTY and may contain bugs. 
-If you find a bug please [create an issue](https://github.com/pestrela/cmdr/issues).
+If you find a bug please [create an issue](https://github.com/cmdr-editor/cmdr/issues).
 cmdr is NOT RELATED TO Native Instruments, but an unofficial software.
 Until the software has reached a stable state, it is recommended to work on copies of your TSI files.
 
