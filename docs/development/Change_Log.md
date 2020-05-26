@@ -1,7 +1,8 @@
 # ChangeLog
 
 ## Major milestones
-
+* May 2020: new github home to group collaborators
+  * https://github.com/cmdr-editor/cmdr
 * Jan 2020: pestrela makes first release after 2 years (v0.9.7) 
   * https://github.com/TakTraum/cmdr/releases
 * Sep 2017: taktraum  migrates to github. Lastest version is v0.9.6 
