@@ -21,9 +21,10 @@ The latest download is ALWAYS available in this link:
 
 There is no installer yet. After download just unzip the file and start cmdr.exe.
 
-**IMPORTANT:** if the EXE file disapears, this is because your anti-virus quarantined the file because it doesnt have a digital signature.\
-In this case make an exception for CMDR.exe.\
-CMDR has a perfect VirusTotal check: [0 out of 72](https://www.virustotal.com/gui/file/ab1db0d627782cfd55867addbac61d55be9debed9c3483ee527733eecf7b6610/detection)
+## Anti virus issues
+
+If the EXE file disapears, this is because your anti-virus quarantined the file. CMDR doesn't have a digital signature yet.\
+In this case make an exception for CMDR.exe; CMDR has a perfect VirusTotal check: [0 out of 72](https://www.virustotal.com/gui/file/ab1db0d627782cfd55867addbac61d55be9debed9c3483ee527733eecf7b6610/detection)
 
 
 ## Requirements
