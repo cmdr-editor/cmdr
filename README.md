@@ -1,6 +1,6 @@
 # cmdr
 
-[![download](docs/pics/icon/download.png?raw=true)](https://github.com/pestrela/cmdr/releases/latest/download/cmdr_tsi_editor_latest.zip)
+[![download](docs/pics/icon/download.png?raw=true | width=300 )](https://github.com/pestrela/cmdr/releases/latest/download/cmdr_tsi_editor_latest.zip)
 
 ## Description
 
@@ -9,18 +9,17 @@ Use it to edit TSI files with basic features that are missing in the built-in Co
 * Copy-Paste
 * Mass-Edit
 * Automation
-* [plus much more](docs/development/Change_Log.md)
+* plus much more ([Changelog](docs/development/Change_Log.md))
 
 ## Download and Installation
 
-The latest download is ALWAYS available in this page: 
-[![download](docs/pics/icon/download.png?raw=true)](https://github.com/pestrela/cmdr/releases/latest/download/cmdr_tsi_editor_latest.zip)
+The latest download is ALWAYS available in this link: 
+[![download](docs/pics/icon/download.png?raw=true)](https://github.com/cmdr-editor/cmdr/releases/latest/download/cmdr_tsi_editor_latest.zip)
 
 There is no installer yet. After download just unzip the file and start cmdr.exe.
 
-**IMPORTANT:** if the EXE file disapears, this is because your anti-virus quarantined the file because it doesnt have a digital signature. 
-In this case make an exception for CMDR.exe.
-
+**IMPORTANT:** if the EXE file disapears, this is because your anti-virus quarantined the file because it doesnt have a digital signature.\
+In this case make an exception for CMDR.exe.\
 CMDR has a perfect VirusTotal check: [0 out of 72](https://www.virustotal.com/gui/file/ab1db0d627782cfd55867addbac61d55be9debed9c3483ee527733eecf7b6610/detection)
 
 
