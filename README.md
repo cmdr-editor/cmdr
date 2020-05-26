@@ -9,7 +9,7 @@ Use it to edit TSI files with basic features that are missing in the built-in Co
 * Copy-Paste
 * Mass-Edit
 * Automation
-* plus much more ([Changelog](docs/development/Change_Log.md))
+* plus much more ([Full Changelog](docs/development/Change_Log.md))
 
 ## Download and Installation
 
