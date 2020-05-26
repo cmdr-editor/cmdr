@@ -1,9 +1,7 @@
 # cmdr
 
 
-<img src="docs/pics/icon/download.png?raw=true" width="300">
-
-[![download](docs/pics/icon/download.png?raw=true | width=300 )](https://github.com/pestrela/cmdr/releases/latest/download/cmdr_tsi_editor_latest.zip)
+[<img src="docs/pics/icon/download.png?raw=true" width="400">](https://github.com/pestrela/cmdr/releases/latest/download/cmdr_tsi_editor_latest.zip)
 
 
 
