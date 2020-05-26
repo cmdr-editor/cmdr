@@ -1,11 +1,11 @@
 # cmdr
 
 
-[[https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png|width=100px]]
-
-![download](docs/pics/icon/download.png?raw=true | width=300)
+<img src="docs/pics/icon/download.png?raw=true" width="300">
 
 [![download](docs/pics/icon/download.png?raw=true | width=300 )](https://github.com/pestrela/cmdr/releases/latest/download/cmdr_tsi_editor_latest.zip)
+
+
 
 ## Description
 
