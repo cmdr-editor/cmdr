@@ -24,18 +24,15 @@ CMDR is a Windows application, but there are several ways to [run it in you macO
 The latest download is ALWAYS available in this link: 
 [![download](docs/pics/icon/download.png?raw=true)](https://github.com/cmdr-editor/cmdr/releases/latest/download/cmdr_tsi_editor_latest.zip)
 
-There is no installer yet. After download just unzip the file and start cmdr.exe.
-
-## AntiVirus issues
-
-If the EXE file disapears, this is because your anti-virus quarantined the file. CMDR doesn't have a digital signature yet.\
-In this case make an exception for CMDR.exe; CMDR has a perfect VirusTotal check: [0 out of 72](https://www.virustotal.com/gui/file/ab1db0d627782cfd55867addbac61d55be9debed9c3483ee527733eecf7b6610/detection)
+There is no installer yet. After download just unzip the file and start cmdr.exe.\
+If the EXE file is missing, please see [FAQ #1](docs/faq.md)
 
 
 ## Requirements
 
 * Microsoft Windows
 * [.NET Framework V4.5](https://www.microsoft.com/en-US/download/details.aspx?id=30653)
+* Also runs in macOS with [these methods](docs/running_on_macos.md)
 
 ## Usage 
 
@@ -50,6 +47,11 @@ If you are already familiar with CMDR, check [this folder](docs/development) as 
 * [2020 improvements](#2020-improvements)
 * [Full Change Log](docs/development/Change_Log.md)
 * [Development Info](docs/development/Development_Info.md)
+
+We discuss CMDR in:
+* [NI forum thread](https://www.native-instruments.com/forum/threads/release-cmdr-controller-manager-done-right-new-2020-link.409243)
+* [Issues list](https://github.com/cmdr-editor/cmdr/issues)
+
 
 ## Screenshot
 
@@ -76,9 +78,9 @@ Until the software has reached a stable state, it is recommended to work on copi
 ## Credits
 
 * Michael Rahier for creating this Program
-* Pedro Estrela for maitaining it since 2020
+* Pedro Estrela for maintaining it since 2020
 * Ivan Zlatev, for [reverse engineering large parts of the TSI structure](https://github.com/ivanz/Traktor.Mapping).
-* [Native Instruments](http://gitwww.native-instruments.com/) for providing the powerful DJ software Traktor Pro.
+* [Native Instruments](http://www.native-instruments.com/) for providing the powerful DJ software Traktor Pro.
 * [Acid Buddha](http://www.acidbuddha.com/) for testing and support. 
 
 ## Donation
