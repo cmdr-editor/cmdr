@@ -9,12 +9,15 @@ The latest download is: https://github.com/cmdr-editor/cmdr/releases/latest/down
 
 ## Description
 
-CMDR is a mappings editor for NI Traktor Pro. It runs in Windows and is an alternative to [Xtrememapping](https://www.xtrememapping.com).\
-Use it to edit TSI files with basic features that are missing in the built-in Controller Manager:
+CMDR is a TSI mappings editor for NI Traktor Pro. It supports TP3.3 and specific controllers like S4MK3.
+
+Use CMDR to edit TSI files with basic features missing in Traktor's Controller Manager:
 * Copy-Paste
 * Mass-Edit
-* Automation
+* MAss-Automation
 * plus much more ([Full Changelog](docs/development/Change_Log.md))
+
+CMDR is a Windows application, but there are several ways to [run it in you macOS](docs/running_on_macos.md).
 
 ## Download and Installation
 
