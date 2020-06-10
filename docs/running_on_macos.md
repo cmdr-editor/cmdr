@@ -1,6 +1,11 @@
 ## How can I run CMDR in my macOS?
 
-There is three ways to edit your mappings in macOS.
+There is three ways to edit your mappings in macOS. A fourth way is unconfirmed, but it has a lot of potential.
+
+* [a) Xtrememapping](#a-simplest-xtrememapping)
+* [b) Azure Cloud](#b-azure-cloud)
+* [c) VirtualBox](#c-most-complex-virtualbox)
+* [d) Winebottler](#d-potentially-very-simple-winebottler-emulation)
 
 
 ### a) Simplest: Xtrememapping
