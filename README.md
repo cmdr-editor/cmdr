@@ -1,5 +1,10 @@
 # cmdr
 
+**Important: CMDR has moved to a new home since Jan 2020.**
+.
+The new site is: https://github.com/cmdr-editor/cmdr/blob/master/README.md
+The latest download is always in this link: https://github.com/cmdr-editor/cmdr/releases/latest/download/cmdr_tsi_editor_latest.zip
+
 [<img src="docs/pics/icon/download.png?raw=true" width="400">](https://github.com/cmdr-editor/cmdr/releases/latest/download/cmdr_tsi_editor_latest.zip)
 
 ## Description
