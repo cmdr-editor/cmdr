@@ -3,11 +3,11 @@
 There is three ways to edit your mappings in macOS.
 
 
-### Simplest: Xtrememapping
+### a) Simplest: Xtrememapping
 
 The simplest answer is: buy a copy of [XtremmeMapping](https://www.xtrememapping.com/) for macOS.
 
-### More complex: Azure Cloud
+### b) Azure Cloud
 
 The more complex answer is: get a free trial of a windows virtual machine. 
 
@@ -25,7 +25,7 @@ Then:
   * Install CMDR as explained here: [CMDR installation instructions](https://github.com/pestrela/cmdr#download-and-installation)
   * Copy your TSI into the virtual machine (simplest is to use eg google drive on the browser)
  
-### Most complex: VirtualBox
+### c) Most complex: VirtualBox
 
 The most complex answer is: get a personal virtual machine couples with an evaluation copy of any Windows OS.
 
@@ -40,3 +40,13 @@ Then:
   * Install CMDR as explained here: [CMDR installation instructions](https://github.com/pestrela/cmdr#download-and-installation)
   * Copy your TSI into the virtual machine (simplest is to use eg google drive on the browser)
  
+### d) Potentially very simple: Winebottler emulation
+
+[Winebottler](https://winebottler.kronenberg.org/) is an emulation software that can run Windows-based programs directly on your Mac.\
+This is possible thanks to a Windows-compatible subsystem provided by the very well-known linux tool called [Wine](https://www.winehq.org/)
+
+https://winebottler.kronenberg.org/
+
+Potentially this option could be the simoplest, but it cannot be tested until a mac user joins the project.\
+So please share your experiences [here](https://github.com/cmdr-editor/cmdr/issues/1)
+
