@@ -182,11 +182,11 @@
                 <MenuItem Header="Dec Pad" Command="{Binding DecPadCommand, Mode=OneTime}" InputGestureText="Ctrl+Shift+Minus" />
                 <MenuItem Header="Inc Pad" Command="{Binding IncPadCommand, Mode=OneTime}" InputGestureText="Ctrl+Shift+Plus" />
                 <Separator/>
-                <MenuItem Header="Dec Channel" Command="{Binding DecChCommand, Mode=OneTime}" InputGestureText="Ctrl+8" />
-                <MenuItem Header="Inc Channel" Command="{Binding IncChCommand, Mode=OneTime}" InputGestureText="Ctrl+9" />
+                <MenuItem Header="Dec Channel" Command="{Binding DecChCommand, Mode=OneTime}" InputGestureText="Ctrl+9" />
+                <MenuItem Header="Inc Channel" Command="{Binding IncChCommand, Mode=OneTime}" InputGestureText="Ctrl+0" />
                 <Separator/>
-                <MenuItem Header="Dec Assignment" Command="{Binding DecAssignment, Mode=OneTime}" InputGestureText="Ctrl+Shift+8" />
-                <MenuItem Header="Inc Assignment" Command="{Binding IncAssignment, Mode=OneTime}" InputGestureText="Ctrl+Shift+9" />
+                <MenuItem Header="Dec Assignment" Command="{Binding DecAssignment, Mode=OneTime}" InputGestureText="Ctrl+Shift+9" />
+                <MenuItem Header="Inc Assignment" Command="{Binding IncAssignment, Mode=OneTime}" InputGestureText="Ctrl+Shift+0" />
                 <Separator/>
                 <MenuItem Header="Remove Binding" Command="{Binding RemoveBindingCommand, Mode=OneTime}" InputGestureText="Ctrl+R" />
                 <MenuItem Header="Midi _Learn" Command="{Binding LearnCommand, Mode=OneTime}" InputGestureText="Ctrl+L" />
