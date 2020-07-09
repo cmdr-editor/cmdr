@@ -90,8 +90,12 @@ namespace cmdr.TsiLib
             if (
                 (deviceTypeStr == "Traktor.Kontrol S4 MK3") ||
                 (deviceTypeStr == "Traktor.Kontrol S2 MK3") ||
+                (deviceTypeStr == "Traktor.Kontrol S3") ||
+                // (deviceTypeStr == "Traktor.Kontrol S5") ||      // if this ever comes
                 (deviceTypeStr == "Traktor.Kontrol S8") ||
+                (deviceTypeStr == "Traktor.Kontrol D2") ||
                 (deviceTypeStr == "Pioneer.DDJ-T1") ||
+                (deviceTypeStr == "Pioneer.DJM-T1") ||
                 (deviceTypeStr == "Generic Keyboard") ||
                 false
                 ) {
