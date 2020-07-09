@@ -17,6 +17,14 @@
   
 ## Recent changes
 
+release 0.10.7 - 9 July 2020
+
+* Kontrol D2, S3 and DJM-T1 support
+
+release 0.10.6 - 26 May 2020
+
+* Moved project to its final home, to benefit getting more devs: https://github.com/cmdr-editor
+
 release 0.10.5 - 14 May 2020
 
 * Known issues:
@@ -27,6 +35,9 @@ release 0.10.5 - 14 May 2020
   * added capitalization for search and Replace
   * quaduplicate now updates the deck letter in comments as well. 
      * To use this use " A " in your comments. Example: "DECK A JOG"
+  
+* Extra:
+  * Support for D2, S3 and DJM-T1 files  
   
  
 release 0.10.4 - 13 May 2020

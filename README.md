@@ -14,7 +14,7 @@ CMDR is a TSI mappings editor for NI Traktor Pro. It supports TP3.3 and specific
 Use CMDR to edit TSI files with basic features missing in Traktor's Controller Manager:
 * Copy-Paste
 * Mass-Edit
-* MAss-Automation
+* Mass-Automation
 * plus much more ([Full Changelog](docs/development/Change_Log.md))
 
 CMDR is a Windows application, but there are several ways to [run it in you macOS](docs/running_on_macos.md).

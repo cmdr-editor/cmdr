@@ -218,3 +218,22 @@ Specific steps:
   - Only use the controller editor for on-off tests where you need to see the modifier state, etc
   - When ready to retest, close tracktor and then save in CMDR
   
+  
+## How to make a new CMDR Release
+
+Note: lots of automation opportunities here :)
+
+* Raise version number in cmdr/cmdr.Editor/Properties/AssemblyInfo.cs:AssemblyFileVersion 
+* Edit docs/development/change_log.md with the new info
+* Recompile code in debug mode
+* send cmdr/cmdr.Editor/bin/Debug/cmdr.exe to virustotal using [this app](https://support.virustotal.com/hc/en-us/articles/115002179065-Desktop-Apps) or 
+[this app](https://github.com/SamuelTulach/VirusTotalUploader/releases)
+* Run cmdr/build_release.sh script
+* git add / git commit / git push
+* upload release:
+  * Manually upload cmdr_tsi_editor_latest.zip to https://github.com/cmdr-editor/cmdr/releases/
+  * create a new release with the changelog from docs/development/change_log.md
+
+
+
+  
