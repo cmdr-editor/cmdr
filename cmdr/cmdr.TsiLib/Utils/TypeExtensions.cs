@@ -73,6 +73,12 @@ namespace System
             return parent;
         }
 
+        // https://stackoverflow.com/questions/5114469/how-to-check-whether-an-object-has-certain-method-property
+        public static bool HasMethod(this object objectToCheck, string methodName)
+        {
+            var type = objectToCheck.GetType();
+            return type.GetMethod(methodName) != null;
+        }
 
         // C# extension methods: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/extension-methods
         // https://stackoverflow.com/questions/521687/foreach-with-index

@@ -25,6 +25,14 @@ namespace cmdr.TsiLib
             set { _rawMapping.Settings.Comment = value; }
         }
 
+        public bool Blend
+        {
+            get
+            {
+                return _rawMapping.Settings.LedBlend;
+            }
+        }
+
         private readonly ConditionTuple _conditions;
         public ConditionTuple Conditions { get { return _conditions; } }
 
