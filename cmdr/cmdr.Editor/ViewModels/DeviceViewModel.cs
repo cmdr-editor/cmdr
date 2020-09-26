@@ -278,6 +278,18 @@ namespace cmdr.Editor.ViewModels
                 updateShowColumns();
             }
         }
+
+        public bool ShowBlend
+        {
+            get {
+                return showColumns.ShowBlend;
+            }
+            set {
+                //SetProperty("SplitConditions", ref _splitConditions, ref value);
+                showColumns.ShowBlend = value;
+                updateShowColumns();
+            }
+        }
         
         public bool HideInteraction
         {

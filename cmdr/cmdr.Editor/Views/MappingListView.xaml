@@ -43,9 +43,12 @@
                 <cdg:CustomDataGridTextColumn Binding="{Binding Item.Condition2, Mode=OneWay}" Header="Condition2" Width="75" IsReadOnly="True" Visibility="Collapsed"/>
                 <cdg:CustomDataGridTextColumn Binding="{Binding Item.Interaction, Mode=OneWay}" Header="Interaction" Width="150" IsReadOnly="True" Visibility="Collapsed"/>
                 <cdg:CustomDataGridTextColumn Binding="{Binding Item.MappedTo, Mode=OneWay}" Header="Mapped To" Width="100" IsReadOnly="True"/>
-                
+                <cdg:CustomDataGridTextColumn Binding="{Binding Item.Blend, Mode=OneWay}" Header="Blend" Width="40" IsReadOnly="True" Visibility="Collapsed" />
+
+                <!-- Note: The commend fields are the only cells that are NOT read-only -->
                 <cdg:CustomDataGridTextColumn Binding="{Binding Item.Comment, UpdateSourceTrigger=PropertyChanged}" Header="Comment" Width="150" />
                 <cdg:CustomDataGridTextColumn Binding="{Binding Item.Comment2, UpdateSourceTrigger=PropertyChanged}" Header="Comment2" Width="150" Visibility="Collapsed" />
+                
                 <cdg:CustomDataGridTextColumn Binding="{Binding Item.MappedTo_OnlyNote, Mode=OneWay}" Header="Note" Width="100" IsReadOnly="True" Visibility="Collapsed"/>
 
                 <!-- Width="*" minwidth="75" -->
@@ -94,6 +97,11 @@
                 <CheckBox Content="Comment2 "
                           VerticalContentAlignment="Center" 
                           IsChecked="{Binding ShowComment2, Mode=TwoWay}" 
+                          IsEnabled="True" />
+
+                <CheckBox Content="Blend "
+                          VerticalContentAlignment="Center" 
+                          IsChecked="{Binding ShowBlend, Mode=TwoWay}" 
                           IsEnabled="True" />
                 
                 <CheckBox Content="Interaction "

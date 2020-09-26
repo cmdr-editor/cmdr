@@ -26,6 +26,7 @@ namespace cmdr.WpfControls.CustomDataGrid
         public bool SplitConditions; //= false;
         public bool ShowCommand2;// = false;
         public bool ShowComment2;// = false;
+        public bool ShowBlend;// = false;
         public bool HideInteraction;// = false;
         public bool ShowNote;// = false;
 
@@ -156,6 +157,7 @@ namespace cmdr.WpfControls.CustomDataGrid
             choose_visibility(!showColumns.SplitConditions, "Conditions", "Condition1", "Condition2");
             choose_visibility(showColumns.ShowCommand2, "Command2", null, null);
             choose_visibility(showColumns.ShowComment2, "Comment2", null, null);
+            choose_visibility(showColumns.ShowBlend, "Blend", null, null);
             choose_visibility(showColumns.HideInteraction, "Interaction", null, null);
             choose_visibility(showColumns.ShowNote, "Note", null, null);
 

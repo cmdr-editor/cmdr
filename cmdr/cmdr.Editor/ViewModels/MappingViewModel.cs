@@ -79,6 +79,30 @@ namespace cmdr.Editor.ViewModels
 
         public AMidiDefinition MidiBinding { get { return _mapping.MidiBinding;} }
 
+        public string Blend
+        {
+            get
+            {
+                // TODO: refresh this dynamically 
+                if (_mapping.MidiBinding == null)
+                    return String.Empty;
+
+                //var _control = _mapping.Command.Control;
+                //if (_control.HasMethod("Blend")) {
+
+                if (Command.MappingType == MappingType.Out) {
+                    bool blend = _mapping.Blend;
+                    if (blend) {
+                        return "Y";
+                    } else {
+                        return "N";
+                    }
+                } else {
+                    return String.Empty;
+                }
+            }
+        }
+
         public string MappedTo
         {
             get
@@ -98,26 +122,7 @@ namespace cmdr.Editor.ViewModels
                         ret = ret + "_I";
                     }
 
-
-                    // Todo: make a new column
-                    bool show_blend = true;
-                    if (show_blend) {
-
-                        // TODO: refresh this dynamically 
-                        var _control = _mapping.Command.Control;
-                        //if (_control.HasMethod("Blend")) {
-                        if (Command.MappingType == MappingType.Out) {
-                            bool blend = _mapping.Blend;
-                            if (blend) {
-                                ret = ret + "_B";
-                            } else {
-                                ret = ret + "_NB";
-                            }
-                        }
-                    }
-
                     return ret;
-
                 }
             }
         }
@@ -146,22 +151,6 @@ namespace cmdr.Editor.ViewModels
                 if (invert)
                 {
                     rest = rest + "_I";
-                }
-
-                bool show_blend = false;
-
-                if (show_blend) {
-
-                    var _control = _mapping.Command.Control;
-                    //if (_control.HasMethod("Blend")) {
-                    if (Command.MappingType == MappingType.Out) {
-                        bool blend = _mapping.Blend;
-                        if (blend) {
-                            rest = rest + "_B";
-                        } else {
-                            rest = rest + "_NB";
-                        }
-                    }
                 }
 
                 String ret = rest + "." + channel;
