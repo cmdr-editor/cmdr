@@ -17,6 +17,11 @@
   
 ## Recent changes
 
+reelase 0.10.8 - NEXT RELEASE
+* Added Blend as a filterable, optional column
+  (note: this has a small refresh bug)
+
+  
 release 0.10.7 - 9 July 2020
 
 * Kontrol D2, S3 and DJM-T1 support
@@ -259,6 +264,8 @@ v0.6 - TakTraum April 2016
  
     
 ## 2020 WishList
+
+* some values do not propagate to the grid.  Changing devices is a workaround, for now
 
 * remember last window position / maximize <<<<<
 * moving mappings up and down (IDs?)
